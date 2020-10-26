@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".MainMenu_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/fundo_icone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imbOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fundo_icone"
+                android:src="@drawable/ic_baseline_shopping_cart" />
+
+            <Button
+                android:id="@+id/btnOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fundo_icone"
+                android:gravity="center"
+                android:text="Order Now"
+                android:textColor="@color/letras"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/fundo_icone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imbPresc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fundo_icone"
+                android:src="@drawable/ic_baseline_receipt" />
+
+            <Button
+                android:id="@+id/btnPresc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fundo_icone"
+                android:gravity="center"
+                android:text="Prescriptions"
+                android:textColor="@color/letras"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/fundo_icone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imbOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fundo_icone"
+                android:src="@drawable/ic_baseline_orders" />
+
+            <Button
+                android:id="@+id/btnOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fundo_icone"
+                android:gravity="center"
+                android:text="Orders"
+                android:textColor="@color/letras"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/fundo_icone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imbMedic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fundo_icone"
+                android:src="@drawable/ic_baseline_profile" />
+
+            <Button
+                android:id="@+id/btnMedic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fundo_icone"
+                android:gravity="center"
+                android:text="Pharmacists"
+                android:textColor="@color/letras"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/fundo_icone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imbProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fundo_icone"
+                android:src="@drawable/ic_baseline_medic" />
+
+            <Button
+                android:id="@+id/btnProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fundo_icone"
+                android:gravity="center"
+                android:text="Profile"
+                android:textColor="@color/letras"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/fundo_icone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imbChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fundo_icone"
+                android:src="@drawable/ic_baseline_chat" />
+
+            <Button
+                android:id="@+id/btnChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fundo_icone"
+                android:gravity="center"
+                android:text="Chat"
+                android:textColor="@color/letras"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/fundo_icone"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imbPill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fundo_icone"
+                android:src="@drawable/ic_baseline_time" />
+
+            <Button
+                android:id="@+id/btnPill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fundo_icone"
+                android:gravity="center"
+                android:text="Pill Reminder"
+                android:textColor="@color/letras"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
