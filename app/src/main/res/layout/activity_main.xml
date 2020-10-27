@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/fundo">
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundo"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -24,7 +27,7 @@
             <ImageView
                 android:id="@+id/icMed"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:src="@drawable/ic_baseline_logo" />
 
             <TextView
@@ -40,6 +43,7 @@
         </RelativeLayout>
 
         <TextView
+            android:id="@+id/txtEsqueceu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
@@ -52,6 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
             android:drawableLeft="@drawable/ic_baseline_person"
             android:hint="   User Name/Email" />
 
@@ -60,6 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:inputType="textPassword"
             android:drawableLeft="@drawable/ic_baseline_lock"
             android:hint="   Password" />
 
@@ -70,7 +76,7 @@
             android:layout_marginTop="10dp"
             android:text="Forgot Password?"
             android:textColor="@color/letras"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
         <Button
@@ -78,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             android:textColor="@color/letras"
             android:textSize="20sp"
             android:background="@drawable/button_login"/>
@@ -96,3 +102,4 @@
 
     </LinearLayout>
 </LinearLayout  >
+</ScrollView>

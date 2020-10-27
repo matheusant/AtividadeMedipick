@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.AtividadeMedipick" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#DC1C0B</item>
+        <item name="colorPrimary">#EC2614</item>
         <item name="colorPrimaryVariant">@color/vermelho</item>
         <item name="colorOnPrimary">#AC0303</item>
         <!-- Secondary brand color. -->
